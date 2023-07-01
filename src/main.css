@@ -1,0 +1,146 @@
+body {
+    background: linear-gradient(20deg, rgb(201, 223, 247) 50%, #25476A 50%);
+    margin: 0px;
+}
+
+.container {
+    display: flex;
+    min-height: 100vh;
+}
+
+.sidebar {
+    width: 20%;
+    background-color: white;
+    padding: 20px;
+    border-top-right-radius: 25px;
+}
+
+.sidebar-content {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 90%;
+}
+
+.sidebar-links {
+    justify-content: normal;
+}
+
+.sidebar-language {
+    display: flex;
+    justify-content: center;
+}
+
+.main-content {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-header {
+    
+    padding: 10px;
+}
+
+.main-row {
+    display: flex;
+    flex: 1;
+}
+
+.main-right {
+    background-color: white;
+    padding: 20px;
+    flex: 1;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    border-radius: 25px;
+}
+
+.main-left {
+    background-color: white;
+    padding: 20px;
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.main-left .name {
+    text-transform: uppercase;
+}
+
+.button {
+    background-color: #25476A;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 25px;
+    text-align: center;
+    cursor: pointer;
+    margin: 10px 0 0 5px;
+    border: 0px;
+}
+
+.button:hover {
+    background-color: #385d83;
+}
+
+.button:active {
+    background-color: #6787a7;
+}
+
+.button a {
+    text-decoration: none;
+    color: white;
+}
+
+.button-inactive {
+    background-color: #cbdcee;
+}
+
+.button-secondary {
+    background-color: #5b6d80;
+}
+
+.button-inactive:hover {
+    background-color: #dce5ee;
+}
+
+.input-field {
+    border-radius: 15px;
+    border: 1px solid black;
+    padding: 10px;
+    width: 300px;
+    margin: 10px 0;
+}
+
+.input-label {
+    font-weight: 300;
+    display: inline-block;
+    margin-right: 10px;
+    width: 120px;
+}
+
+input[type=text]:focus {
+    outline: none;
+    border: 1px solid lightblue;
+    color: #25476A;
+}
+
+.main-left-items {
+    width: 100%;
+}
+.main-left-items button {
+    width: 100%;
+}
+
+.locale-container {
+    display: flex;
+    flex-grow: true; 
+    justify-content: center;
+}
