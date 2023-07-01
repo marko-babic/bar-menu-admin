@@ -1,10 +1,10 @@
-name: Build and Test React Application
+name: Build and test bar menu admin
 
 on:
   push:
-    branches: [ main, preview ]
+    branches: [ master, preview ]
   pull_request:
-    branches: [ main ]
+    branches: [ master ]
 
 jobs:
   build_test:
